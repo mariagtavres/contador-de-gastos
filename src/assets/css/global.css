@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f3f7;
+}
+
+/* Mobile first - 420px max width */
+.container {
+  padding: 20px;
+  padding-bottom: 100px;
+  max-width: 420px;
+  margin: auto;
+}
+
+/* Tablet - 421px to 768px */
+@media (min-width: 421px) and (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+/* Notebook - 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 600px;
+    padding-top: 40px;
+  }
+
+  .total-card {
+    padding: 35px;
+  }
+
+  input,
+  button {
+    padding: 16px;
+    font-size: 16px;
+  }
+}
+
+/* Desktop - above 1024px */
+@media (min-width: 1025px) {
+  .container {
+    max-width: 700px;
+    padding-top: 60px;
+  }
+
+  .total-card {
+    padding: 40px;
+  }
+
+  .total-card h2 {
+    font-size: 42px;
+  }
+
+  input,
+  button {
+    padding: 18px;
+    font-size: 18px;
+  }
+
+  .count-card,
+  .expense-card {
+    padding: 20px;
+  }
+
+  .count-title,
+  .expense-title {
+    font-size: 18px;
+  }
+
+  .count-value,
+  .expense-value {
+    font-size: 18px;
+  }
+}
+
+.total-card {
+  background: linear-gradient(135deg, #4f6df5, #5fb3ff);
+  color: white;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.total-card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.total-card h1 {
+  margin-top: 8px;
+  font-size: 32px;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  background: #f3f3f3;
+  border: none;
+  border-radius: 12px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #4f6df5, #5fb3ff);
+  color: white;
+  font-weight: 600;
+}
+
+.count-card {
+  background: white;
+  padding: 15px;
+  border-radius: 14px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.count-title {
+  font-weight: 600;
+}
+
+.count-category {
+  font-size: 13px;
+  color: black;
+}
+
+.count-value {
+  color: #e53935;
+  font-weight: 600;
+}
+
+.expense-card {
+  background: white;
+  padding: 15px;
+  border-radius: 14px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.expense-title {
+  font-weight: 600;
+  color: black;
+}
+
+.expense-value {
+  color: #e53935;
+  font-weight: 600;
+}
+
+h2 {
+  color: black;
+}

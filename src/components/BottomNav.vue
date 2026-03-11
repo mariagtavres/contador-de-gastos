@@ -20,6 +20,7 @@ a {
 }
 .bottom-nav {
   position: fixed;
+  text-align: center;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);

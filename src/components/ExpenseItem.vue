@@ -9,9 +9,9 @@ defineProps({
 </script>
 
 <template>
-    <div class="count-card">
+    <div class="expense-card">
         <div>
-            <div class="count-title">{{ description }}</div>
+            <div class="expense-title">{{ description }}</div>
         </div>
         
         <div>
@@ -19,7 +19,7 @@ defineProps({
         </div>
 
         <div>
-            <div class="count-value">R$ {{ value }}</div>
+            <div class="expense-value">R$ {{ value }}</div>
         </div>
     </div>
 </template>

@@ -27,7 +27,7 @@ import {useCounterStore} from '../stores/counter'
       </div>
     </div>
 
-    <h3 style="margin-top: 20px;">Novo Gasto</h3>
+    <h3 style="margin-top: 5px;">Novo Gasto</h3>
     <input v-model="description" placeholder="Descrição (ex: Disney Plus)" />
     <div class="input-row">
       <input v-model="value" placeholder="Valor (R$)" />
